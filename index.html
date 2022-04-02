@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="formulario" action="https://formsubmit.co/viniciusvss120@gmail.com"
-    method="POST">
+    <header>
+        <h1>Gmail</h1>
+    </header>
+    <form class="formulario" action="https://formsubmit.co/viniciusvss120@gmail.com" method="POST">
         <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html"> <!--exibe a tela de mensegem de sucesso -->
         <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem, obrigado pelo contato e logo responderemos!"> <!--No email do receptor, vai aparecer a mensagem do value-->
         <!-- <input type="hidden" name="_captcha" value="false"> -->
@@ -21,7 +23,8 @@
             <input type="text" name="subject" placeholder="Assunto">
             <label for="nome">Mensagem:</label>
             <textarea name="message" placeholder="Mensagem"></textarea>
-            <button type="submit">Enviar</button>    
+            <button class="submit" type="submit">Enviar</button>    
     </form>
+    <footer class="footer">Vinicius Silva Souza</footer>
 </body>
 </html>
