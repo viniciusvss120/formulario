@@ -1,0 +1,26 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: ;
+}
+
+input{
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+}
+
+textarea{
+    padding: 30px;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+    
+}
+
+
